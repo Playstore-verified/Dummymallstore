@@ -1,1 +1,145 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dummymall | Opening Soon</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#ff6b00,#ff2674,#4b0082);
+overflow:hidden;
+}
+
+.container{
+width:90%;
+max-width:600px;
+background:rgba(255,255,255,.12);
+backdrop-filter:blur(12px);
+padding:45px;
+border-radius:25px;
+text-align:center;
+color:white;
+box-shadow:0 15px 35px rgba(0,0,0,.3);
+animation:fade 1.5s;
+}
+
+.logo{
+width:120px;
+margin-bottom:20px;
+}
+
+h1{
+font-size:48px;
+font-weight:bold;
+letter-spacing:2px;
+margin-bottom:15px;
+}
+
+h2{
+font-size:24px;
+margin-bottom:20px;
+color:#fff3d6;
+}
+
+p{
+font-size:18px;
+line-height:30px;
+opacity:.95;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 40px;
+background:white;
+color:#ff2674;
+font-weight:bold;
+border-radius:50px;
+text-decoration:none;
+transition:.4s;
+}
+
+.btn:hover{
+transform:scale(1.08);
+background:#ffe8ef;
+}
+
+.loader{
+margin:35px auto 0;
+width:70px;
+height:70px;
+border:6px solid rgba(255,255,255,.2);
+border-top:6px solid white;
+border-radius:50%;
+animation:spin 1s linear infinite;
+}
+
+.footer{
+margin-top:35px;
+font-size:14px;
+opacity:.8;
+}
+
+@keyframes spin{
+100%{
+transform:rotate(360deg);
+}
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo">
+
+<h1>Dummymall</h1>
+
+<h2>🚀 Opening Soon</h2>
+
+<p>
+Something Amazing is Coming!<br>
+We're preparing India's smart shopping destination with
+Fast Delivery, Cash on Delivery, Premium Gift Wrapping,
+Affordable Prices & Exciting Rewards.
+</p>
+
+<a href="#" class="btn">Launching This Week</a>
+
+<div class="loader"></div>
+
+<div class="footer">
+© 2025 Dummymall • Quick. Easy. Reliable.
+</div>
+
+</div>
+
+</body>
+</html>
